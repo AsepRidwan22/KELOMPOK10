@@ -1,0 +1,86 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: viga;
+  font-size: 20px;
+  color: white;
+}
+#navbar .nav-link {
+  font-weight: 700;
+}
+
+/* Home */
+/* jumbotron */
+.jumbotron {
+  /* background-image: url(../img/baligradasi.jpg); */
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+  position: relative;
+  background-position-y: -100px;
+
+  /* background-image: url(/img/forest.jpg); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.jumbotron .display-4 {
+  color: white;
+  font-size: 40px;
+  margin-top: 40px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  font-family: ‘Shift’, sans-serif;
+}
+
+/* utility */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 30px;
+  background-color: #3cb7ae;
+  border: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  width: 150px;
+}
+.tombol:hover {
+  background-color: #359b94;
+  margin-top: -4px;
+}
+
+/* desktop */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 10px;
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: solid 3px white;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+    height: 640px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 60px;
+    margin-top: 200px;
+  }
+}
