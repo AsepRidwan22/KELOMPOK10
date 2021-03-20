@@ -162,6 +162,9 @@ html {
   background-color: #359b94;
   margin-top: -4px;
 }
+.bghitam {
+  background-color: #1f1b24;
+}
 
 /* desktop */
 @media (min-width: 992px) {
