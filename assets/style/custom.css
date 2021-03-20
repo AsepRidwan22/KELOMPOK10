@@ -149,6 +149,47 @@ html {
 }
 /* akhir gallery */
 
+/* about */
+#about {
+  padding: 140px 0 100px;
+}
+#about h3 {
+  font-size: 50px;
+  color: #fff;
+}
+
+#about p {
+  color: #fff;
+}
+#about .row {
+  padding: 100px 0 100px;
+}
+
+.parallax {
+  /* background-image: url(/img/forest.jpg); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* -webkit-filter: grayscale(1); */
+}
+/* akhir about */
+
+/* footer */
+.page-footer {
+  color: #fff;
+}
+
+.page-footer a {
+  color: #fff;
+}
+
+.page-footer a:hover {
+  text-decoration: none;
+  text-shadow: rgba(0, 0, 0, 0.2);
+}
+
 /* utility */
 .tombol {
   text-transform: uppercase;
