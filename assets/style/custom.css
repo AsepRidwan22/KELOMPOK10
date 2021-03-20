@@ -176,6 +176,20 @@ html {
 }
 /* akhir about */
 
+/* footer */
+.page-footer {
+  color: #fff;
+}
+
+.page-footer a {
+  color: #fff;
+}
+
+.page-footer a:hover {
+  text-decoration: none;
+  text-shadow: rgba(0, 0, 0, 0.2);
+}
+
 /* utility */
 .tombol {
   text-transform: uppercase;
