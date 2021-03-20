@@ -69,6 +69,86 @@ html {
   font-weight: 200;
 }
 
+/* Best Tour */
+#bestTour img {
+  width: 600px;
+  border-radius: 15px;
+}
+
+#bestTour {
+  padding: 50px 0 40px;
+}
+
+#bestTour p {
+  margin-bottom: 30px;
+}
+.content2 {
+  margin: 70px 0 70px;
+  text-align: center;
+}
+
+.content2 h3 {
+  font-size: 60px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.content2 h3 span {
+  font-weight: 700;
+}
+
+.content2 p {
+  font-size: 18px;
+  color: #acacacac;
+  margin: 10px 0px 10px 0px;
+}
+
+/* gallery */
+#gallery {
+  padding: 100px 0 100px;
+}
+.title-gallery-feed {
+  color: #fff;
+}
+.title-gallery-feed {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.gallery-feed img {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.gallery-feed img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+.more-gallery-feed {
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  width: 200px;
+}
+
+.center {
+  text-align: center;
+}
+
+.more-gallery-feed:hover {
+  /* background: #333; */
+  text-decoration: none;
+  color: #fff;
+}
+/* akhir gallery */
+
 /* utility */
 .tombol {
   text-transform: uppercase;
