@@ -43,6 +43,13 @@ html {
   background-color: white;
   padding: 20px;
 }
+.info-panel a {
+  text-decoration: none;
+  color: #1f1b24;
+}
+.info-panel a:hover {
+  color: black;
+}
 .icon {
   text-align: center;
 }
