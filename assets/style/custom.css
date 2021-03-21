@@ -191,13 +191,6 @@ html {
   background: #fff;
   width: 70%;
 }
-.contact-form .form-control {
-  border-radius: 1rem;
-}
-.contact-image {
-  text-align: center;
-}
-
 .contact-form form .row {
   margin-bottom: -7%;
 }
